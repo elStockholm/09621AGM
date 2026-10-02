@@ -44,8 +44,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HW1\1.cs" />
+    <Compile Include="HW1\10.cs" />
+    <Compile Include="HW1\11.cs" />
+    <Compile Include="HW1\12.cs" />
+    <Compile Include="HW1\13.cs" />
+    <Compile Include="HW1\14.cs" />
+    <Compile Include="HW1\15.cs" />
+    <Compile Include="HW1\16.cs" />
+    <Compile Include="HW1\17.cs" />
+    <Compile Include="HW1\18.cs" />
+    <Compile Include="HW1\19.cs" />
     <Compile Include="HW1\2.cs" />
+    <Compile Include="HW1\20.cs" />
     <Compile Include="HW1\3.cs" />
+    <Compile Include="HW1\4.cs" />
+    <Compile Include="HW1\5.cs" />
+    <Compile Include="HW1\6.cs" />
+    <Compile Include="HW1\7.cs" />
+    <Compile Include="HW1\8.cs" />
+    <Compile Include="HW1\9.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
