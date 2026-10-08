@@ -8,7 +8,7 @@ namespace _09621AGM.HW2
 {
     internal class _6
     {
-        static void Main()
+        static void Main6()
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
