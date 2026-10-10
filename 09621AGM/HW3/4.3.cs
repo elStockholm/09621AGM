@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _09621AGM.HW3
 {
-    internal class _4
+    internal class _43
     {
         static void Main(string[] args)
         {

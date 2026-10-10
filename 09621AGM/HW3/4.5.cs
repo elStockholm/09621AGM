@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace _09621AGM.HW3
 {
-    internal class _4
+    internal class _45
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             //Создать массив строк. При помощи foreach обойти весь массив. При встрече элемента 
             //"Hello Kitty" или "Barbie doll" необходимо положить их в “сумку”, т.е.прибавить к
