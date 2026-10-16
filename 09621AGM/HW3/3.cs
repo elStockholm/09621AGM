@@ -24,19 +24,19 @@ namespace _09621AGM.HW3
             Console.WriteLine("Введите год: ");
             int year = int.Parse(Console.ReadLine());
 
+            Console.WriteLine("Введите число: ");
+            int num = int.Parse(Console.ReadLine());
             string[] months = { "январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь", "октябрь", "ноябрь", "декабрь" };
             int[] days = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
             if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
             {
                 days[1] += 1;
+                num += 1;
             }
-
-            Console.WriteLine("Введите число: ");
-            int num = int.Parse(Console.ReadLine());
 
             while (true)
             {
-                if (num >= 1 && num <= 365)
+                if (num >= 1 && num <= 366)
                 {
                     break;
                 }

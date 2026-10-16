@@ -77,6 +77,15 @@
     <Compile Include="HW3\4.3.cs" />
     <Compile Include="HW3\4.4.cs" />
     <Compile Include="HW3\4.5.cs" />
+    <Compile Include="HW4\1.cs" />
+    <Compile Include="HW4\2.cs" />
+    <Compile Include="HW4\3.cs" />
+    <Compile Include="HW4\4.cs" />
+    <Compile Include="HW4\5.cs" />
+    <Compile Include="HW4\7.1.cs" />
+    <Compile Include="HW4\7.2.cs" />
+    <Compile Include="HW4\7.3.cs" />
+    <Compile Include="HW4\7.4.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -8,7 +8,7 @@ namespace _09621AGM.HW3
 {
     internal class _43
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             //Напишите программу, которая принимает на входе строку и производит выходные 
             //данные в соответствии со следующей таблицей:
