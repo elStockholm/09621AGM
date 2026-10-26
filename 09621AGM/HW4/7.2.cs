@@ -27,8 +27,7 @@ namespace _09621AGM.HW4
         static void Main7(string[] args)
         {
             long product = 1;
-            double average;
-            int sum = Method(ref product, out average, 1, 3, 5, 10);
+            int sum = Method(ref product, out double average, 1, 3, 5, 10);
             Console.WriteLine(sum);
             Console.WriteLine(product);
             Console.WriteLine(average);

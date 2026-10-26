@@ -50,7 +50,7 @@ namespace _09621AGM.HW4
             }
         }
 
-        static void Main(string[] args)
+        static void Main7(string[] args)
         {
             Ded d1 = new Ded("Дед Иван", LvlOfVorchanie.Low, new string[] { "Опять по телевизору одну болтовню крутят, смотреть тошно, одни дармоеды экраны занимают" });
             Ded d2 = new Ded("Дед Петр", LvlOfVorchanie.Medium, new string[] { "Ироды окаянные, опять цены в магазине подкрутили! Пенсию только дают — и тут же всё подчистую сдирают, грабители проклятые!" });

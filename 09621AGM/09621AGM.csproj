@@ -82,14 +82,26 @@
     <Compile Include="HW4\3.cs" />
     <Compile Include="HW4\4.cs" />
     <Compile Include="HW4\5.cs" />
+    <Compile Include="HW4\6.cs" />
     <Compile Include="HW4\7.1.cs" />
     <Compile Include="HW4\7.2.cs" />
     <Compile Include="HW4\7.3.cs" />
     <Compile Include="HW4\7.4.cs" />
+    <Compile Include="HW5\1.cs" />
+    <Compile Include="HW5\2.cs" />
+    <Compile Include="HW5\3.cs" />
+    <Compile Include="HW5\4.cs" />
+    <Compile Include="HW5\5.cs" />
+    <Compile Include="HW5\6.cs" />
+    <Compile Include="HW5\7.1.cs" />
+    <Compile Include="HW5\7.2.cs" />
+    <Compile Include="HW5\7.3.cs" />
+    <Compile Include="HW5\7.4.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
