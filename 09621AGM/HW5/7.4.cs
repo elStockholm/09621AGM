@@ -8,7 +8,7 @@ namespace _09621AGM.HW5
 {
     internal class _7
     {
-        static void Main()
+        static void Main7(string[] args)
         {
             Dictionary<int, List<int>> graph = new Dictionary<int, List<int>>()
         {

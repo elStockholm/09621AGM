@@ -97,6 +97,10 @@
     <Compile Include="HW5\7.2.cs" />
     <Compile Include="HW5\7.3.cs" />
     <Compile Include="HW5\7.4.cs" />
+    <Compile Include="HW6\1.cs" />
+    <Compile Include="HW6\2.cs" />
+    <Compile Include="HW6\3.cs" />
+    <Compile Include="HW6\HW_1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
