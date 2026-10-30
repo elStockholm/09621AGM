@@ -101,6 +101,7 @@
     <Compile Include="HW6\2.cs" />
     <Compile Include="HW6\3.cs" />
     <Compile Include="HW6\HW_1.cs" />
+    <Compile Include="HW6\LAB1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

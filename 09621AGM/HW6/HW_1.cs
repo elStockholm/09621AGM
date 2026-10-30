@@ -100,7 +100,7 @@ namespace _09621AGM.HW6
                 int KvInPadik = (int)this.Kv / (int)this.Padik;
                 Console.WriteLine($"Количество квартир в одном подьезде равно {KvInPadik}");
             }
-            static void Main(string[] args)
+            static void Main1(string[] args)
             {
                 Zdanie building = new Zdanie();
                 Console.WriteLine("---Добавьте новое здание---");
