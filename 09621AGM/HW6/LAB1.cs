@@ -187,7 +187,7 @@ namespace _09621AGM.HW6
             }
         }
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine("Добро пожаловать в кафе");
             Console.WriteLine("-----------------------");

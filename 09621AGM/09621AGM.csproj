@@ -102,6 +102,13 @@
     <Compile Include="HW6\3.cs" />
     <Compile Include="HW6\HW_1.cs" />
     <Compile Include="HW6\LAB1.cs" />
+    <Compile Include="HW7\1.cs" />
+    <Compile Include="HW7\2.cs" />
+    <Compile Include="HW7\3.cs" />
+    <Compile Include="HW7\4.cs" />
+    <Compile Include="HW7\HW1.cs" />
+    <Compile Include="HW7\HW2.cs" />
+    <Compile Include="HW7\LAB1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
