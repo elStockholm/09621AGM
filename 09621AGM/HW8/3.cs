@@ -144,13 +144,11 @@ namespace _09621AGM.HW8
             {
                 if (amount > 0)
                 {
-                    if (this.Balance >= amount) // Проверяем, хватает ли денег на НАШЕМ счете
+                    if (this.Balance >= amount)
                     {
-                        // 1. Списываем с нашего счета
                         this.Balance -= amount;
                         this.transactions.Enqueue(new BankTransaction(-amount));
 
-                        // 2. Зачисляем на чужой счет
                         toAccount.Balance += amount;
                         toAccount.transactions.Enqueue(new BankTransaction(amount));
 
