@@ -109,6 +109,9 @@
     <Compile Include="HW7\HW1.cs" />
     <Compile Include="HW7\HW2.cs" />
     <Compile Include="HW7\LAB1.cs" />
+    <Compile Include="HW8\1.cs" />
+    <Compile Include="HW8\2.cs" />
+    <Compile Include="HW8\3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

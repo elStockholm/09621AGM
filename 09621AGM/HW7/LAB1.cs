@@ -33,7 +33,7 @@ namespace _09621AGM.HW7
 
             public void GiveTask(Employee worker, string taskTitle, TaskTarget target)
             {
-                Console.WriteLine($"От {Name} даётся задача «{taskTitle}» человеку {worker.Name}.");
+                Console.WriteLine($"От {Name} даётся задача {taskTitle} человеку {worker.Name}");
 
                 bool isMyBoss = (worker.Boss1 == this || worker.Boss2 == this);
                 bool isMyDepartment = (worker.Department == target);
@@ -47,11 +47,7 @@ namespace _09621AGM.HW7
                     Console.WriteLine($"{worker.Name} не берёт задачу.\n");
                 }
             }
-        }
-
-        internal class HW1
-        {
-            static void Main(string[] args)
+            static void Main1(string[] args)
             {
                 Employee timur = new Employee("Тимур", TaskTarget.Management);
 
@@ -89,8 +85,6 @@ namespace _09621AGM.HW7
                 ilshat.GiveTask(ivanych, "Настроить сеть", TaskTarget.SysAdmins);
                 ivanych.GiveTask(vitya, "Настроить сеть", TaskTarget.SysAdmins);
                 sergey.GiveTask(ilya, "Настроить сеть", TaskTarget.SysAdmins);
-
-                Console.ReadKey();
             }
         }
     }
