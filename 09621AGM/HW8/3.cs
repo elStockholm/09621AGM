@@ -194,32 +194,29 @@ namespace _09621AGM.HW8
             public void Dispose()
             {
                 string fileName = $"Transactions_{Number}.txt";
+                string fileText = $"\nИстория операций для счета {Number}";
 
-                using (StreamWriter writer = new StreamWriter(fileName, true))
+                if (transactions.Count == 0)
                 {
-                    writer.WriteLine($"\n--- История операций для счета {Number} ---");
-
-                    if (transactions.Count == 0)
+                    fileText += "Операций по данному счету не было\n";
+                }
+                else
+                {
+                    foreach (BankTransaction transaction in transactions)
                     {
-                        writer.WriteLine("Операций по данному счету не было.");
-                    }
-                    else
-                    {
-                        foreach (BankTransaction transaction in transactions)
+                        if (transaction.Amount > 0)
                         {
-                            if (transaction.Amount > 0)
-                            {
-                                writer.WriteLine($"[{transaction.TransactionDate}] Пополнение: {transaction.Amount}");
-                            }
-                            else
-                            {
-                                decimal amountWithoutMinus = transaction.Amount * -1;
-                                writer.WriteLine($"[{transaction.TransactionDate}] Списание: {amountWithoutMinus}");
-                            }
+                            fileText += $"[{transaction.TransactionDate}] Пополнение: {transaction.Amount}\n";
+                        }
+                        else
+                        {
+                            decimal amountWithoutMinus = transaction.Amount * -1;
+                            fileText += $"[{transaction.TransactionDate}] Списание: {amountWithoutMinus}\n";
                         }
                     }
-                    writer.WriteLine("-------------------------------------------");
                 }
+                fileText += "----\n";
+                File.AppendAllText(fileName, fileText);
                 GC.SuppressFinalize(this);
             }
         }
